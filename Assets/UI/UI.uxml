@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ButtonClass.uss?fileID=7433441132597879392&amp;guid=6a78350f5758c4801bf8c1514f804c27&amp;type=3#ButtonClass" />
+    <ui:VisualElement name="VEContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: auto; width: auto; flex-direction: row;">
+        <ui:VisualElement name="VELabelContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 100%; width: 50%; align-self: flex-start;">
+            <ui:Label tabindex="-1" text="." display-tooltip-when-elided="true" name="LbColorWord" style="-unity-font: initial; -unity-text-align: middle-center; -unity-font-style: bold; font-size: 100%; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); position: relative; top: 45%; bottom: 50%; left: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="VEButtonContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 100%; width: 50%; align-self: flex-end; flex-direction: column; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+            <ui:Button text="GREEN" display-tooltip-when-elided="true" name="BtGreen" style="-unity-font-style: bold; color: rgb(0, 0, 0); top: 5%; height: 10%; font-size: 50%;" />
+            <ui:Button text="RED" display-tooltip-when-elided="true" name="BtRed" style="-unity-font-style: bold; color: rgb(0, 0, 0); top: 15%; height: 10%; font-size: 50%;" />
+            <ui:Button text="BLUE" display-tooltip-when-elided="true" name="BtBlue" style="-unity-font-style: bold; color: rgb(0, 0, 0); top: 25%; height: 10%; font-size: 50%;" />
+            <ui:Button text="YELLOW" display-tooltip-when-elided="true" name="BtYellow" style="-unity-font-style: bold; color: rgb(0, 0, 0); bottom: auto; top: 35%; height: 10%; font-size: 50%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

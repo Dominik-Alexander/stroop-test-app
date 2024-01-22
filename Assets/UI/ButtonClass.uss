@@ -1,0 +1,13 @@
+VisualElement {
+    height: 10%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    -unity-font-style: bold;
+    -unity-text-align: upper-center;
+}
